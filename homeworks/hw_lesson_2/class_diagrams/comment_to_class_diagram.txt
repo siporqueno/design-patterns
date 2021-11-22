@@ -1,0 +1,2 @@
+﻿На Class Diagram отобразил как классы также View (ProductView, ProductFormView, ActivityLineByProductView)
+и фрагмент View (NavBar), потому что они есть на диаграммах последовательностей.
