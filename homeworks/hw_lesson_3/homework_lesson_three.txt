@@ -1,0 +1,5 @@
+﻿Please find Homework of Lesson 3 in the following Pull Request:
+
+https://github.com/siporqueno/spring-two/pull/9
+
+It is the request to merge branch 'hw-architectures-lesson-three' with branch 'main'.
