@@ -1,0 +1,18 @@
+﻿Please find Homework of Lesson 4 in the following Pull Request:
+
+https://github.com/siporqueno/cloud-storage/pull/9
+
+It is the request to merge branch 'hw-architectures-lesson-four' with branch 'main'.
+
+My comment to it:
+
+"Реализовал шаблон «Декоратор» в клиентской части облачного хранилища, которое было создано 
+на курсе «Разработка сетевого хранилища на Java». Переместил всю логику обработки команд, 
+доступных независимо от того, авторизован пользователь или нет в CommonCommandHandlerDecorator 
+из абстрактного класса CommandHandler, наследниками которого являются AuthRegCommandHandler 
+(содержит логику обработки команд от неавторизованного пользователя) и MainCommandHandler 
+(содержит логику обработки команд от авторизованного пользователя). Естественно, 
+CommonCommandHandlerDecorator используется для декорации как AuthRegCommandHandler, так и 
+MainCommandHandler. Теперь, если нам нужно добавить больше логики в клиентскую часть 
+приложения мы можем просто реализовать ещё один или более Декораторов без необходимости 
+менять классы CommandHandler, AuthRegCommandHandler, MainCommandHandler".
