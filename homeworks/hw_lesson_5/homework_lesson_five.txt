@@ -1,0 +1,10 @@
+﻿Please find Homework of Lesson 5 in the following Pull Request:
+
+https://github.com/siporqueno/cloud-storage/pull/10
+
+It is the request to merge branch 'hw-architectures-lesson-five' with branch 'main'.
+
+My comment to it:
+
+"Реализовал шаблоны «Цепочка обязанностей» и «Команда» при рефакторинге клиентской части 
+облачного хранилища, которое было создано на курсе «Разработка сетевого хранилища на Java».".
