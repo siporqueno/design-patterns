@@ -1,0 +1,26 @@
+﻿Please find Homework of Lesson 6 in the following Pull Request:
+
+https://github.com/siporqueno/cloud-storage/pull/11
+
+It is the request to merge branch 'hw-architectures-lesson-six' with branch 'main'.
+
+My comments to it:
+
+"Realized patterns Identity Map and Data Mapper in server side of the cloud storage. 
+Class UserIdentityMap serves as a cash for Users got from a database. Class UserMapper 
+is used as a Mapper from database to User entity. These two classes are used by service 
+layer.
+
+Created another mapper, UserToUserAuthDtoMapper, to map User entity to UserAuthDto which 
+is used by LoginCommandUnauthState class which, along with other state classes, is used 
+by AuthHandler on the next level on top of service layer."
+
+"Реализовал шаблоны «Коллекция объектов» и «Преобразователь данных» при рефакторинге серверной 
+части облачного хранилища, которое было создано на курсе «Разработка сетевого хранилища на Java». 
+Класс UserIdentityMap выполняет функцию кэша для сущностей User, ранее полученных из базы данных. 
+Класс UserMapper – это преобразователь из базы данных в объекты класса User в предметной области. 
+Эти два класса используются сервисным слоем.
+
+Создал ещё один преобразователь, UserToUserAuthDtoMapper, чтобы преобразовывать сущность User 
+в UserAuthDto используемый классом LoginCommandUnauthState который, наряду с другими классами-состояниями, 
+используется классом AuthHandler на слое выше сервисного".
