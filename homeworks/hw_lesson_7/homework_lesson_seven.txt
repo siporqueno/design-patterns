@@ -1,0 +1,17 @@
+﻿Please find Homework of Lesson 7 in the following Pull Request:
+
+https://github.com/siporqueno/cloud-storage/pull/12
+
+It is the request to merge branch 'hw-architectures-lesson-seven' with branch 'main'.
+
+My comments to it:
+
+"1. Created file api.yaml describing REST API of admin service to manage users in cloud storage.
+ 2. Generated code (Controller etc.) using code generator in Idea based on the file api.yaml . Created mocks for return values.
+ 3. Tried it sending requests from Swagger UI. It works and returns the mocks as expected."
+
+"Создал файл api.yaml со спецификацией OpenAPI для REST API админки управляющей пользователями в облачном хранилище.
+При помощи немного поднастроенного (язык - spring, не java, три параметра для пакетов) генератора кода в Идее на основе api.yaml 
+сгенерировал код (контроллер и т.д.). Создал моки для возвращаемых значений.
+Испытал сгенерированное при помощи запросов из Swagger UI. Работает и возвращает ожидаемые моки.
+Не понял, как в api.yaml описывать представления (View)".
